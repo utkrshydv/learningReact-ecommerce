@@ -1,4 +1,4 @@
-//import { Header } from '../components/Header';
+import { Header } from '../components/Header';
 import './OrdersPage.css';
 
 export function OrdersPage() {
@@ -6,7 +6,7 @@ export function OrdersPage() {
     <>
       <title>Orders</title>
 
-     {/* <Header /> */}
+     <Header />
 
       <div className="orders-page">
         <div className="page-title">Your Orders</div>
