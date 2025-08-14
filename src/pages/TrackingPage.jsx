@@ -3,6 +3,10 @@ import './TrackingPage.css'
 export function TrackingPage(){
   return(
     <>
+
+    <title>Tracking</title>
+
+    <link rel="icon" type="image/svg+xml" href="/images/icons/track-favicon.png" />
     <div className="tracking-page">
       <div className="order-tracking">
         <a className="back-to-orders-link link-primary" href="/orders">
